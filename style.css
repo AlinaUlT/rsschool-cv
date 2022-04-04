@@ -1,0 +1,14 @@
+.cvContent {
+  font-family: "Times New Roman", Times, serif;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #3b3838;
+letter-spacing: -0.2px;
+text-align:left;
+padding-left: 2em;
+  }
+
+  .cvName {
+   border-bottom: 3px solid lightblue ;
+   padding-top: 12px;
+  }

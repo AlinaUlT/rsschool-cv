@@ -42,8 +42,7 @@ function countSheeps(arrayOfSheep) {
 * [JavaScript Manual](https://learn.javascript.ru/)
 * [HTML Basics on Code Basics](https://ru.code-basics.com/languages/html)
 * [CSS Basics on Code Basics](https://ru.code-basics.com/languages/css)
-* RS Schools Course «JavaScript/Front-end. Stage 0» (completed)
-* RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 ## Languages:
 * English C1 (I have been living in America for almost 5 years, I went to a local college (Sierra College at Rocklin Campus) and took first ESL courses, then Academic English course 1A level) 
 * Russian - Native

@@ -26,8 +26,8 @@
       I started studying at RS School in December 2021 from stage 0. At the
       moment, I have moved to stage 1 and I strive to learn and continue to
       master the profession of a Front-End developer. I have already managed to
-      work on one project to create a website for
-      <a href="https://www.qualifiedappliancerepair.net/">Qualified Appliance Repair</a>.
+      work on one project to create a website for.
+      <a href="https://www.qualifiedappliancerepair.net/">Qualified Appliance Repair</a>
     </p>
     <h3 class="strengths">My strengths:</h3>
     <ul>
@@ -59,37 +59,37 @@
               if (sheepNumberI === true) {
                  result++;
                }
-            } 
+            }
              return result;
-           } 
+           }
     </code>
 </pre>
     <p>
-    Next task: 
+    Next task:
     If you sort the arrays by their length, you will see, that their length-values are consecutive.
     But one array is missing!
-    You have to write a method, that return the length of the missing array. 
+    You have to write a method, that return the length of the missing array.
     If the array of arrays is null/nil or empty, the method should return 0.
     When an array in the array is null or empty, the method should return 0 too!
-    There will always be a missing element and its length will be always between the given arrays. 
+    There will always be a missing element and its length will be always between the given arrays.
   </p>
 <pre class="code">
   <code>
     function getLengthOfMissingArray(arrayOfArrays) {
       const lengths = (arrayOfArrays || [])
-        .map(a => a ? a.length : 0)
-        .sort((a, b) => a - b)
-      
+        .map(a =&gt; a ? a.length : 0)
+        .sort((a, b) =&gt; a - b)
+
       if (lengths.includes(0)) {
         return 0
       }
-    
+
       for (let i = 0; i &lt; lengths.length - 1; i++) {
         if (lengths[i] + 1 !== lengths[i + 1]) {
           return lengths[i] + 1
         }
       }
-    
+
       return 0
     }
   </code>
@@ -97,23 +97,20 @@
     <h2 class="exp">Experience:</h2>
     <ul class="onlyExp">
       <li>
-        <a href="https://www.qualifiedappliancerepair.net/"
-          >Qualified Appliance Repair</a>
+        <a href="https://www.qualifiedappliancerepair.net/">Qualified Appliance Repair</a>
       </li>
     </ul>
     <h2>Education:</h2>
     <ul class="eduList">
       <li>
-        <a href="https://ru.code-basics.com/languages/javascript"
-          >JavaScript Basics on Code Basics</a>
+        <a href="https://ru.code-basics.com/languages/javascript">JavaScript Basics on Code Basics</a>
       </li>
       <li><a href="https://learn.javascript.ru/">JavaScript Manual</a></li>
       <li>
         <a href="https://ru.code-basics.com/languages/html">HTML Basics on Code Basics</a>
       </li>
       <li>
-        <a href="https://ru.code-basics.com/languages/css"
-          >CSS Basics on Code Basics</a>
+        <a href="https://ru.code-basics.com/languages/css">CSS Basics on Code Basics</a>
       </li>
       <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
     </ul>

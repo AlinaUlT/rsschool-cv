@@ -1,7 +1,6 @@
 
 .cvContent {
   font-family: "Times New Roman", Times, serif;
-  letter-spacing: 2px;
   word-spacing: 2px;
   color: #423c3c;
   letter-spacing: -0.2px;
@@ -19,9 +18,27 @@
   }
 }
 
+a:link {
+  color: rgb(227,246,246);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(227,246,246);
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(37, 161, 183);
+  text-decoration: underline;
+}
 .cvName {
   border-bottom: 3px solid rgb(166, 201, 212);
   padding-top: 12px;
+  width: 100%;
+}
+
+#cvName{
+  width: 100%;
+  text-align: center;
 }
 
 .code {
@@ -72,18 +89,35 @@ main {
   gap: 10px 10px;
 }
 
+#mainCV {
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+}
+
+.imgWrap {
+  background-image:url("me.jpg");
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+
+}
+
 img {
-  display: inline-block;
   border-radius: 50%;
   width: auto;
   height: 200px;
   overflow: hidden;
+  display: none;
 }
-  .box {
-    display: flex;
-    align-self: baseline;
-    flex: 1 1 100%;
-  }
+#mainSec {
+  margin: auto;
+}
 
 
 footer {
@@ -99,6 +133,7 @@ footer {
   width: 30%;
   height: 40%;
   padding-top: 20px;
+  display: inline-block;
 }
 .myHub {
   color: rgb(227,246,246);

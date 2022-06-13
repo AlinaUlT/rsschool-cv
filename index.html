@@ -8,8 +8,28 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body class="cvContent">
+  <header>
+      <nav class="nav">
+          <ul class="navig">
+              <li class="au">Alina Ulasevich</li>
+              <li class="empty"></li>
+              <li><a href="#contacts">Home</a></li>
+              <li><a href="#myself">About Myself</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#code">Code</a></li>
+              <li><a href="#exp">Experience</a></li>
+              <li><a href="#edu">Education</a></li>
+              <li><a href="#lang">Languages</a></li>
+          </ul>
+      </nav>
+  </header>
+  <main>
+      <section class="box">
+          <img src="me.jpg" alt="myself">
     <h1 class="cvName">Alina Ulasevich</h1>
-    <h2 class="contacts">Contact information:</h2>
+      </section>
+    <section class="box">
+        <h2 class="contacts" id="contacts">Contact information:</h2>
     <ul class="listContacts">
       <li>
         <strong>Location: </strong>Krakow, Poland / Citrus Heights, Sacramento County, CA, USA
@@ -21,22 +41,17 @@
         <a href="https://github.com/AlinaUlT">AlinaUlT</a>
       </li>
     </ul>
-    <h2 class="myself">About Myself:</h2>
+    </section>
+    <section class="box">
+        <h2 class="myself" id="myself">About Myself:</h2>
     <p class="myselfText">
-      I started studying at RS School in December 2021 from stage 0. At the
-      moment, I have moved to stage 1 and I strive to learn and continue to
-      master the profession of a Front-End developer. I have already managed to
-      work on one project to create a website for.
+      I started studying at RS School in December 2021 from stage 0. I also started going through stage 1, but didn't finish it. Therefore, I re-took the course from stage 0 and I'm going to continue studying until I achieve a result.I have already managed to
+      work on one project to create a website for:
       <a href="https://www.qualifiedappliancerepair.net/">Qualified Appliance Repair</a>
     </p>
-    <h3 class="strengths">My strengths:</h3>
-    <ul>
-      <li>Quick Learner</li>
-      <li>Diligence</li>
-      <li>Team Playing</li>
-      <li>Сreativity</li>
-    </ul>
-    <h2 class="skills">Skills</h2>
+    </section>
+      <section class="box">
+    <h2 class="skills" id="skills">Skills</h2>
     <ul class="skillsList">
       <li>CSS</li>
       <li>HTML</li>
@@ -44,35 +59,9 @@
       <li>Git, GitHub</li>
       <li>VS Code</li>
     </ul>
-    <h2>Code example:</h2>
-    <p>
-      Consider an array/list of sheep where some sheep may be missing from their
-      place. We need a function that counts the number of sheep present in the
-      array (true means present).
-    </p>
-    <pre class="code">
-    <code>
-        function countSheeps(arrayOfSheep) {
-            let result = 0;
-            for (let i = 0; i &lt; arrayOfSheep.length; i++){
-              let sheepNumberI = arrayOfSheep[i];
-              if (sheepNumberI === true) {
-                 result++;
-               }
-            }
-             return result;
-           }
-    </code>
-</pre>
-    <p>
-    Next task:
-    If you sort the arrays by their length, you will see, that their length-values are consecutive.
-    But one array is missing!
-    You have to write a method, that return the length of the missing array.
-    If the array of arrays is null/nil or empty, the method should return 0.
-    When an array in the array is null or empty, the method should return 0 too!
-    There will always be a missing element and its length will be always between the given arrays.
-  </p>
+      </section>
+      <section class="box" id="codeSempl">
+    <h2 id="code">Code example:</h2>
 <pre class="code">
   <code>
     function getLengthOfMissingArray(arrayOfArrays) {
@@ -94,14 +83,18 @@
     }
   </code>
 </pre>
-    <h2 class="exp">Experience:</h2>
+          </section>
+      <section class="box">
+    <h2 class="exp" id="exp">Experience:</h2>
     <ul class="onlyExp">
       <li>
         <a href="https://www.qualifiedappliancerepair.net/">Qualified Appliance Repair</a>
       </li>
     </ul>
+      </section>
+      <section class="box">
     <h2>Education:</h2>
-    <ul class="eduList">
+    <ul class="eduList" id="edu">
       <li>
         <a href="https://ru.code-basics.com/languages/javascript">JavaScript Basics on Code Basics</a>
       </li>
@@ -114,7 +107,9 @@
       </li>
       <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
     </ul>
-    <h2 class="lang">Languages</h2>
+      </section>
+      <section class="box">
+    <h2 class="lang" id="lang">Languages</h2>
     <ul>
       <li>
         English C1 (I have been living in America for almost 5 years, I went to
@@ -123,5 +118,18 @@
       </li>
       <li>Russian - Native</li>
     </ul>
+      </section>
+  </main>
+  <footer>
+      <a class="myHub" href="https://github.com/AlinaUlT">AlinaUlT 2022</a>
+      <img
+              class="schoolLogo"
+              src="https://rs.school/images/rs_school_js.svg"
+              alt="RS school logo"
+      />
+      <a class="rsSchool" href="https://rs.school/js-stage0/"
+      >The Rolling Scopes</a
+      >
+  </footer>
   </body>
 </html>

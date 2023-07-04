@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #212834;
+  background-color: #E2F3F9;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+header .profile {
+  display: flex;
+  flex-direction: row;
+}
+header .profile .photo {
+  flex: 1;
+  margin-right: 20px;
+}
+header .profile .photo img {
+  max-width: 100%;
+  height: auto;
+}
+header .profile .info {
+  flex: 3;
+}
+header .profile .info h2 {
+  color: #048BC2;
+  margin-bottom: 10px;
+}
+header .profile .info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+main h3 {
+  color: #048BC2;
+}
+main ul {
+  list-style-type: none;
+  padding: 0;
+}
+main a {
+  color: #048BC2;
+  text-decoration: none;
+}
+main a:hover {
+  color: #036790;
+}
+main pre {
+  background-color: #b8e2f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */

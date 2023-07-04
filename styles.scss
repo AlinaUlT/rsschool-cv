@@ -1,0 +1,85 @@
+
+$color-primary: #048BC2;
+$color-secondary: #212834;
+$color-light: #E2F3F9;
+
+
+body {
+  font-family: Arial, sans-serif;
+  color: $color-secondary;
+  background-color: $color-light;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+
+header {
+  .profile {
+    display: flex;
+    flex-direction: row;
+
+
+    .photo {
+      flex: 1;
+      margin-right: 20px;
+
+      img {
+        max-width: 100%;
+        height: auto;
+    }
+  }
+
+
+    .info {
+      flex: 3;
+      h2 {
+        color: $color-primary;
+        margin-bottom: 10px;
+    }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+    }
+  }
+}
+}
+
+
+main {
+  h3 {
+    color: $color-primary;
+}
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+  a {
+    color: $color-primary;
+    text-decoration: none;
+
+    &:hover {
+      color: darken($color-primary, 10%);
+  }
+}
+
+  pre {
+    background-color: darken($color-light, 10%);
+    padding: 10px;
+    border-radius: 5px;
+}
+}
+
+
+footer {
+  text-align: center;
+  color: darken($color-secondary, 20%);
+}

@@ -1,2 +1,3 @@
 # rsschool-cv
-rss_stage1_#CV1markdown&amp;git
+https://AlinaUlT.github.io/rsschool-cv/cv
+https://AlinaUlT.github.io/rsschool-cv/

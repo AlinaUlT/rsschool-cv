@@ -35,11 +35,9 @@
                 <ul>
                     <li><strong>Location:</strong> Citrus Heights, Sacramento County, CA, USA</li>
                     <li><strong>Phone:</strong> +1 916-613-9454</li>
-                    <li><strong>E-mail:</strong> <a href="mailto:juliwu2517@gmail.com">juliwu2517@gmail.com</a>
-                    </li>
+                    <li><strong>E-mail:</strong> <a href="mailto:juliwu2517@gmail.com">juliwu2517@gmail.com</a></li>
                     <li><strong>GitHub:</strong> <a href="https://github.com/AlinaUlT">AlinaUlT</a></li>
-                    <li><strong>Codewars:</strong> <a
-                            href="https://www.codewars.com/users/rsschool_19d3afbbc16fcf7f">AlinaUlT</a>
+                    <li><strong>Codewars:</strong> <a href="https://www.codewars.com/users/rsschool_19d3afbbc16fcf7f">AlinaUlT</a>
                     </li>
                 </ul>
             </section>
@@ -105,22 +103,21 @@
                 <pre>
     <code>
         function find(object, path) {
-            return path.split('.').reduce((acc, pathName) =>
-        acc && acc.hasOwnProperty(pathName) ? acc[pathName] : undefined,object);
-
+            return path.split('.').reduce((acc, pathName) =&gt;
+        acc &amp;&amp; acc.hasOwnProperty(pathName) ? acc[pathName] : undefined,object);
         }
     </code>
     </pre>
 
                 <pre>
     <code>
-        const whosOnline = (friends) => {
+        const whosOnline = (friends) =&gt; {
             let newObj = {}
             let userStatus;
-            friends.forEach(eachFriend => {
+            friends.forEach(eachFriend =&gt; {
             if(eachFriend.status === "offline"){
                 userStatus = "offline";
-            } else if(eachFriend.lastActivity > 10){
+            } else if(eachFriend.lastActivity &gt; 10){
                 userStatus = "away";
             } else {
                 userStatus = "online";
@@ -142,10 +139,8 @@
             <section class="education" id="education">
                 <h2>Education:</h2>
                 <ul>
-                    <li>Sierra College at Rocklin Campus, CA; Major: Computer Science; Expected Graduation: 2025
-                    </li>
-                    <li><a href="https://ru.code-basics.com/languages/javascript">JavaScript Basics on Code
-                        Basics</a></li>
+                    <li>Sierra College at Rocklin Campus, CA; Major: Computer Science; Expected Graduation: 2025</li>
+                    <li><a href="https://ru.code-basics.com/languages/javascript">JavaScript Basics on Code Basics</a></li>
                     <li><a href="https://learn.javascript.ru/">JavaScript Manual</a></li>
                     <li><a href="https://ru.code-basics.com/languages/html">HTML Basics on Code Basics</a></li>
                     <li><a href="https://ru.code-basics.com/languages/css">CSS Basics on Code Basics</a></li>

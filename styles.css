@@ -2,6 +2,10 @@
   font-family: "Ubuntu";
   src: url("UbuntuFont/Ubuntu-Regular.ttf") format("truetype");
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Ubuntu", sans-serif;
   color: #212834;

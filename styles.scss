@@ -24,8 +24,12 @@ $color-light: #E2F3F9;
   padding: 2em;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
 body {
+
   font-family: 'Ubuntu', sans-serif;
   color: $color-secondary;
   background-color: $color-light;

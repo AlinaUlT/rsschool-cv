@@ -1,5 +1,3 @@
 # rsschool-cv
-https://AlinaUlT.github.io/rsschool-cv/cv
-https://AlinaUlT.github.io/rsschool-cv/
-
+ https://alinault.github.io/rsschool-cv/
 

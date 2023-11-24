@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alina Ulasevich</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <nav class="nav">
+        <ul>
+            <li><a href="#contact">Contact Information</a></li>
+            <li><a href="#about">About Myself</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code">Code Example</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#languages">Languages</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="container">
+        <div class="column_one_row_one">
+            <div class="profile" id="profile">
+                <div class="photo">
+                    <img src="photo.jpg" alt="Alina Ulasevich">
+                </div>
+                <h1>Alina Ulasevich</h1>
+            </div>
+
+            <section class="contact" id="contact">
+                <h2>Contact information:</h2>
+                <ul>
+                    <li><strong>Location:</strong> Citrus Heights, Sacramento County, CA, USA</li>
+                    <li><strong>Phone:</strong> +1 916-613-9454</li>
+                    <li><strong>E-mail:</strong> <a href="mailto:juliwu2517@gmail.com">juliwu2517@gmail.com</a></li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/AlinaUlT">AlinaUlT</a></li>
+                    <li><strong>Codewars:</strong> <a href="https://www.codewars.com/users/rsschool_19d3afbbc16fcf7f">AlinaUlT</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="column_one_row_two">
+            <section class="skills" id="skills">
+                <h2>Skills:</h2>
+                <ul>
+                    <li><strong>Programming Languages:</strong> JavaScript, TypeScript(basics)</li>
+                    <li><strong>Web Technologies:</strong> HTML, CSS, RESTful API</li>
+                    <li><strong>Frameworks/Libraries:</strong> Angular, RxJS, NgRx (basics)</li>
+                    <li><strong>Version Control System:</strong> Git</li>
+                    <li><strong>Testing:</strong> Basic understanding of unit testing and end-to-end (E2E)
+                        testing
+                        using Jasmine,
+                        Karma, and
+                        Protractor.
+                    </li>
+                    <li><strong>Others:</strong> MVC Design pattern, Responsive Web Design, Node.js, npm</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="column_one_row_three">
+            <section class="experience" id="experience">
+                <h2>Experience:</h2>
+                <ul>
+                    <li><a href="https://github.com/AlinaUlT/online-zoo">Online Zoo</a></li>
+                    <li><a href="https://github.com/AlinaUlT/travel">Travel</a></li>
+                    <li><a href="https://github.com/AlinaUlT/gem-puzzle">Gem Puzzle</a></li>
+                </ul>
+            </section>
+        </div>
+        <div class="col_two_row_one">
+
+            <section class="about" id="about">
+
+                <h2>About Myself:</h2>
+                <p>Objective: Highly motivated junior developer with a foundation in JavaScript, TypeScript, and
+                    Angular
+                    framework. Eager to apply my skills in a professional environment and further enhance my
+                    understanding of
+                    front-end development.</p>
+                <p>As an aspiring front-end developer, I'm passionate about using my knowledge of HTML, CSS, and
+                    JavaScript to
+                    create a user-friendly and visually appealing web interface. While my industry experience is
+                    limited, my
+                    ability to learn quickly, combined with a rigorous self-learning regimen, has allowed me to lay
+                    a solid
+                    foundation in interface design principles. I have a desire to constantly learn and improve. I
+                    understand
+                    that being a junior developer means not having anyone to teach me, but having the initiative and
+                    resourcefulness to learn from all possible sources. I am determined to pass on my passion for
+                    technology, my
+                    ability to learn quickly and my commitment to quality to a team where I can contribute and grow
+                    as a
+                    professional.</p>
+            </section>
+        </div>
+        <div class="col_two_row_two">
+            <section class="code" id="code">
+                <h2>Code example:</h2>
+                <pre>
+    <code>
+        function find(object, path) {
+            return path.split('.').reduce((acc, pathName) =&gt;
+        acc &amp;&amp; acc.hasOwnProperty(pathName) ? acc[pathName] : undefined,object);
+        }
+    </code>
+    </pre>
+
+                <pre>
+    <code>
+        const whosOnline = (friends) =&gt; {
+            let newObj = {}
+            let userStatus;
+            friends.forEach(eachFriend =&gt; {
+            if(eachFriend.status === "offline"){
+                userStatus = "offline";
+            } else if(eachFriend.lastActivity &gt; 10){
+                userStatus = "away";
+            } else {
+                userStatus = "online";
+            }
+            if(!newObj[userStatus]){
+                newObj[userStatus] = [];
+            }
+            newObj[userStatus].push(eachFriend.username)
+            })
+            return newObj;
+        }
+    </code>
+    </pre>
+            </section>
+        </div>
+
+
+        <div class="col_two_row_three">
+            <section class="education" id="education">
+                <h2>Education:</h2>
+                <ul>
+                    <li>Sierra College at Rocklin Campus, CA; Major: Computer Science; Expected Graduation: 2025</li>
+                    <li><a href="https://ru.code-basics.com/languages/javascript">JavaScript Basics on Code Basics</a></li>
+                    <li><a href="https://learn.javascript.ru/">JavaScript Manual</a></li>
+                    <li><a href="https://ru.code-basics.com/languages/html">HTML Basics on Code Basics</a></li>
+                    <li><a href="https://ru.code-basics.com/languages/css">CSS Basics on Code Basics</a></li>
+                    <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                    <li><a href="https://learn.epam.com/study/path?rootId=1471991">IT Fundamentials</a></li>
+                </ul>
+            </section>
+            <section class="languages" id="languages">
+                <h2>Languages:</h2>
+                <ul>
+                    <li>English - Fluent</li>
+                    <li>Russian - Native</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <ul class="footer_nav">
+        <li><p>© 2023 Alina Ulasevich. All rights reserved.</p></li>
+        <li><a href="https://rs.school/js-en/"><img class="rss" src="rs_school_js.svg" alt="RsSchool"></a></li>
+        <li><a href="https://github.com/AlinaUlT"><img src="GitHub-logo.png" alt="AlinaUlT"></a></li>
+    </ul>
+</footer>
+
+</body>
+</html>
